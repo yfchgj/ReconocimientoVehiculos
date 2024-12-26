@@ -1,0 +1,6 @@
+train: yolo_dataset/train/images
+val: yolo_dataset/val/images
+test: yolo_dataset/test/images  # Opcional
+
+nc: 6  # Número de clases
+names: ['Auto', 'Bus', 'Camión', 'Minibús', 'Motocicleta', 'Mototaxi']
